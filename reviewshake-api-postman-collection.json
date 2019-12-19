@@ -1,0 +1,255 @@
+{
+    "id": "c42d7b62d9d423106b189213430505e1",
+    "name": "Reviewshake API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "994dd559a2a1b5f0b324108682b4c9f6",
+            "name": "Create order",
+            "url": "httpssubdomain.reviewshake.com\/api\/v1\/order",
+            "description": "Creating orders in Reviewshake allows you to automate the sending of review invitations. You can setup this automation in your dashboard by visiting *Review Invitations* -> *Triggers*.\n\nSet the *Trigger* as *Order created*, and you can then setup the trigger options such as templates and subject lines to use as well as delays.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "rawModeData": ""
+        },
+        {
+            "id": "c641798ca42c2f0b7972a4a58d00b81e",
+            "name": "List widgets",
+            "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets",
+            "description": "List widgets.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "X",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "rawModeData": ""
+        },
+        {
+            "id": "b33fbe1b4b97f8800c836520000de5c5",
+            "name": "Create widget",
+            "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets",
+            "description": "You can create the following widget types:\n\n1. List\n2. Caroussel\n3. Slider\n4. Grid\n5. Quote",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f32439667f1f5d40414403903bd516e",
+            "name": "View widget",
+            "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets\/1",
+            "description": "View widget.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "X",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "rawModeData": ""
+        },
+        {
+            "id": "222fac88c4474b497dfb3e3249b6ae81",
+            "name": "Update widget",
+            "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets\/<id>",
+            "description": "Update widget.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "X",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "rawModeData": ""
+        },
+        {
+            "id": "3fc8f9e87dbfcb6ff7e806b37d75993b",
+            "name": "Delete widget",
+            "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets\/<id>",
+            "description": "Delete widget.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "X",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "rawModeData": ""
+        }
+    ]
+}

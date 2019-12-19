@@ -1,0 +1,219 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0",
+        "title": "Reviewshake API",
+        "description": "Welcome to the Reviewshake API documentation, where you will find all details required to interact with our API.\n\nIn order to make calls, you will need two pieces of information:\n\n1. Your Reviewshake subdomain (eg. `demo.reviewshake.com`)\n2. Your API key, see the Authentication section below.\n\n# Authentication\nYour account will have a unique API key associated with it, which can be found under _Configurations_ -> _General Settings_ in your dashboard.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpssubdomain.reviewshake.com\/api\/v1"
+    ],
+    "paths": {
+        "\/order": {
+            "post": {
+                "summary": "Create order",
+                "description": "Creating orders in Reviewshake allows you to automate the sending of review invitations. You can setup this automation in your dashboard by visiting *Review Invitations* -> *Triggers*.\n\nSet the *Trigger* as *Order created*, and you can then setup the trigger options such as templates and subject lines to use as well as delays.",
+                "operationId": "OrderPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/widgets": {
+            "get": {
+                "summary": "List widgets",
+                "description": "List widgets.",
+                "operationId": "WidgetsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create widget",
+                "description": "You can create the following widget types:\n\n1. List\n2. Caroussel\n3. Slider\n4. Grid\n5. Quote",
+                "operationId": "WidgetsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/widgets\/1": {
+            "get": {
+                "summary": "View widget",
+                "description": "View widget.",
+                "operationId": "Widgets1Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/widgets\/<id>": {
+            "put": {
+                "summary": "Update widget",
+                "description": "Update widget.",
+                "operationId": "WidgetsIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete widget",
+                "description": "Delete widget.",
+                "operationId": "WidgetsIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "CreateOrderrequest": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "total_price": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "customer_email": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "customer_firstname": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "customer_lastname": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "customer_id": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "client": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "location_id": {
+                        "description": "",
+                        "type": "delete"
+                    }
+                }
+            },
+            "Variables": {
+                "type": "object",
+                "properties": {
+                    "product_name": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "product_image": {
+                        "description": "",
+                        "type": "delete"
+                    }
+                }
+            },
+            "CreateWidgetrequest": {
+                "type": "object",
+                "properties": {
+                    "widget_type": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "ex_star_rating": {
+                        "description": "",
+                        "type": "delete"
+                    },
+                    "max_reviews": {
+                        "description": "",
+                        "type": "delete"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "id": "c42d7b62d9d423106b189213430505e1",
+    "id": "404e898e8482d46764a2b4ea92312eda",
     "name": "Reviewshake API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "994dd559a2a1b5f0b324108682b4c9f6",
+            "id": "2a1b2c714e013131fbefc6916c9b372c",
             "name": "Create order",
             "url": "httpssubdomain.reviewshake.com\/api\/v1\/order",
             "description": "Creating orders in Reviewshake allows you to automate the sending of review invitations. You can setup this automation in your dashboard by visiting *Review Invitations* -> *Triggers*.\n\nSet the *Trigger* as *Order created*, and you can then setup the trigger options such as templates and subject lines to use as well as delays.",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "collectionId": "404e898e8482d46764a2b4ea92312eda",
             "rawModeData": ""
         },
         {
-            "id": "c641798ca42c2f0b7972a4a58d00b81e",
+            "id": "1316ea0ec8da33832fd0ebd5808e5665",
             "name": "List widgets",
             "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets",
             "description": "List widgets.",
@@ -89,11 +89,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "collectionId": "404e898e8482d46764a2b4ea92312eda",
             "rawModeData": ""
         },
         {
-            "id": "b33fbe1b4b97f8800c836520000de5c5",
+            "id": "e088289370bd81709627221d6f0f7b93",
             "name": "Create widget",
             "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets",
             "description": "You can create the following widget types:\n\n1. List\n2. Caroussel\n3. Slider\n4. Grid\n5. Quote",
@@ -134,11 +134,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "collectionId": "404e898e8482d46764a2b4ea92312eda",
             "rawModeData": ""
         },
         {
-            "id": "1f32439667f1f5d40414403903bd516e",
+            "id": "d60bc63a646021e7cf3b1ff269ea67e2",
             "name": "View widget",
             "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets\/1",
             "description": "View widget.",
@@ -172,11 +172,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "collectionId": "404e898e8482d46764a2b4ea92312eda",
             "rawModeData": ""
         },
         {
-            "id": "222fac88c4474b497dfb3e3249b6ae81",
+            "id": "9389a2306dd6489384ec0e149292bc91",
             "name": "Update widget",
             "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets\/<id>",
             "description": "Update widget.",
@@ -210,11 +210,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "collectionId": "404e898e8482d46764a2b4ea92312eda",
             "rawModeData": ""
         },
         {
-            "id": "3fc8f9e87dbfcb6ff7e806b37d75993b",
+            "id": "5ed9f9853a766d7925966da9db0f0aa5",
             "name": "Delete widget",
             "url": "httpssubdomain.reviewshake.com\/api\/v1\/widgets\/<id>",
             "description": "Delete widget.",
@@ -248,7 +248,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "c42d7b62d9d423106b189213430505e1",
+            "collectionId": "404e898e8482d46764a2b4ea92312eda",
             "rawModeData": ""
         }
     ]
